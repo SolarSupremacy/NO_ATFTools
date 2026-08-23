@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <GameDir>D:\SteamLibrary\steamapps\common\Nuclear Option</GameDir>
+        <ExportDir>$(GameDir)\BepInEx\plugins</ExportDir>
+    </PropertyGroup>
+</Project>

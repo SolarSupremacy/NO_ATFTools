@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="Dir.props" Condition="Exists('Dir.props')" />
+    
+    <PropertyGroup>
+        <!-- <TargetFramework>net10.0</TargetFramework> -->
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyCopyright>All rights reserved.</AssemblyCopyright>
+        <Product>Solar Missile Overhaul</Product>
+        <AssemblyName>vet.solar.missileoverhaul</AssemblyName>
+        <RootNamespace>missileoverhaul</RootNamespace>
+        <Authors>SolarSupremacy</Authors>
+        <Description>Seeing if I can actually make NO mods...</Description>
+        <Version>0.1</Version>
+        <!--
+        <ImplicitUsings>enable</ImplicitUsings>
+        -->
+
+        <RestoreAdditionalProjectSources>
+            https://api.nuget.org/v3/index.json;
+            https://nuget.bepinex.dev/v3/index.json
+        </RestoreAdditionalProjectSources>
+        
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+        <DebugType>embedded</DebugType>
+        <Optimize>true</Optimize>
+        <Deterministic>true</Deterministic>
+
+        <ManagedDir>$(GameDir)\NuclearOption_Data\Managed</ManagedDir>
+        <BepInExCoreDir>$(GameDir)\BepInEx\core</BepInExCoreDir>
+    </PropertyGroup>
+
+    <Target Name="ValidateReferences" BeforeTargets="ResolveReferences">
+        <Error Condition="!Exists('$(ManagedDir)\Assembly-CSharp.dll')" Text="Could not locate Assembly-CSharp.dll, most likely Nuclear Option directory is incorrect: $(GameDir)" />
+        <Error Condition="!Exists('$(BepInExCoreDir)\BepInEx.dll')" Text="Could not locate BepInEx.dll. Verify BepInEx is installed for the selected Nuclear Option install: $(GameDir)" />
+    </Target>
+    
+    <Target Name="Deploy" AfterTargets="Build">
+        <MakeDir Directories="$(ExportDir)\$(Product)" />
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ExportDir)\$(Product)" />
+    </Target>
+
+    <Target Name="RunGameAfterBuild" AfterTargets="Deploy">
+        <Exec Command="&quot;$(GameDir)\NuclearOption.exe&quot;" />
+    </Target>
+    
+    <ItemGroup>
+        <PackageReference Include="BepInEx.Core" Version="5.*" PrivateAssets="all" />
+        <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+        <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" PrivateAssets="all" />
+        <!-- <PackageReference Include="HarmonyX" Version="2.16.1" /> -->
+        <Reference Include="0Harmony">
+            <HintPath>D:\SteamLibrary\steamapps\common\Nuclear Option\BepInEx\core\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <PackageReference Include="UniTask" Version="2.5.11" />
+    </ItemGroup>
+
+    
+    
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(ManagedDir)/Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="Mirage">
+            <HintPath>$(ManagedDir)/Mirage.dll</HintPath>
+            <Private>false</Private>
+            <Publicize>true</Publicize>
+        </Reference>
+
+        <Reference Include="Rewired_Core">
+            <HintPath>$(ManagedDir)/Rewired_Core.dll</HintPath>
+            <Private>false</Private>
+            <Publicize>true</Publicize>
+        </Reference>
+
+        <Reference Include="UnityEngine">
+            <HintPath>$(ManagedDir)/UnityEngine.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>$(ManagedDir)/UnityEngine.CoreModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine.PhysicsModule">
+            <HintPath>$(ManagedDir)/UnityEngine.PhysicsModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine.AudioModule">
+            <HintPath>$(ManagedDir)/UnityEngine.AudioModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        
+        <Reference Include="UnityEngine.UI">
+            <HintPath>$(ManagedDir)/UnityEngine.UI.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="Unity.TextMeshPro">
+            <HintPath>$(ManagedDir)/Unity.TextMeshPro.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+    
+</Project>

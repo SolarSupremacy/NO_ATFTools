@@ -7,7 +7,7 @@ using missileoverhaul.lib;
 namespace missileoverhaul.patchSubclass;
 
 // ARHSeekerOverhaul: Drop-in replacement for ARHSeeker with better functionality.
-public class ARHSeekerPatch : ARHSeeker, MissileSeekerOverhaul
+public class ARHSeekerPatch : ARHSeeker
 {
     private static readonly AccessTools.FieldRef<ARHSeeker, float>
         lockPerseveranceRef =

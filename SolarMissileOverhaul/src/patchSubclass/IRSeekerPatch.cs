@@ -143,6 +143,7 @@ public sealed class IRSeekerOverhaul : IRSeeker
         knownAccel = Vector3.zero;
         knownTime = Time.timeSinceLevelLoad;
         
+        
         // Target logic.
         launchTarget = target;
         launchLock = SeekerCheck(target?.GetIRSource(), target?.transform.GlobalPosition());
@@ -154,7 +155,7 @@ public sealed class IRSeekerOverhaul : IRSeeker
                 SeekerLockUnit(launchTarget);
                 SeekerLockIR(launchTarget.GetIRSource());
                 knownPos = launchTarget.transform.GlobalPosition();
-                knownVel = !(launchTarget != null) || !(launchTarget.rb != null) ? Vector3.zero : launchTarget.rb.velocity;
+                knownVel = (launchTarget != null && launchTarget.rb != null) ? launchTarget.rb.velocity : Vector3.zero;
             }
             else
             {
@@ -163,7 +164,7 @@ public sealed class IRSeekerOverhaul : IRSeeker
                 {
                     knownPos = (GlobalPosition) targetDatalink;
                     if (missile.NetworkHQ.IsTargetBeingTracked(launchTarget))
-                        knownVel = !(launchTarget != null) || !(launchTarget.rb != null) ? Vector3.zero : launchTarget.rb.velocity;
+                        knownVel = (launchTarget != null && launchTarget.rb != null) ? launchTarget.rb.velocity : Vector3.zero;
                 }
             }
             
