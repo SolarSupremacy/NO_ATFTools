@@ -6,12 +6,12 @@
         <!-- <TargetFramework>net10.0</TargetFramework> -->
         <TargetFramework>netstandard2.1</TargetFramework>
         <AssemblyCopyright>All rights reserved.</AssemblyCopyright>
-        <Product>Solar Missile Overhaul</Product>
-        <AssemblyName>vet.solar.missileoverhaul</AssemblyName>
-        <RootNamespace>missileoverhaul</RootNamespace>
+        <Product>Solar's ATF Tools</Product>
+        <AssemblyName>vet.solar.ATFTools</AssemblyName>
+        <RootNamespace>ATFTools</RootNamespace>
         <Authors>SolarSupremacy</Authors>
-        <Description>Seeing if I can actually make NO mods...</Description>
-        <Version>0.1</Version>
+        <Description>Useful stuff for ATF things.</Description>
+        <Version>1.0</Version>
         <!--
         <ImplicitUsings>enable</ImplicitUsings>
         -->
@@ -49,6 +49,10 @@
     <Target Name="RunGameAfterBuild" AfterTargets="Deploy">
         <Exec Command="&quot;$(GameDir)\NuclearOption.exe&quot;" />
     </Target>
+    
+    <ItemGroup>
+        <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3" PrivateAssets="all" ExcludeAssets="runtime"/>
+    </ItemGroup>
     
     <ItemGroup>
         <PackageReference Include="BepInEx.Core" Version="5.*" PrivateAssets="all" />
