@@ -13,42 +13,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aafdaf75-af51-4396-89c8-f7fcf011c671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ATFTools/ATFTools.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/Core/Input.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/Detection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulTargeting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/IRF_DRFM.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/IRF_Receiver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/RFDatalink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/RFIdentify.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/RFUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/RF_Radar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/lib/rf/RF_RadarUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATFTools/src/patch/UnitPatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NuclearOptionDev.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/NO_ATFTools.slnx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/Dir.props" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/Dir.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/SolarMissileOverhaul.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/Plugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/IMunitionInterfaces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/IMunitionInterfaces.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulCalc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulCalc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulGuidance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulGuidance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulGuidanceIntercept.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulGuidanceIntercept.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulGuidancePredictive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulGuidancePredictive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulGuidancePursuit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulGuidancePursuit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulMissile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulMissile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulSeeker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulSeeker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulSeekerARH.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulSeekerARH.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulSeekerIR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulSeekerIR.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulSensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/lib/OverhaulUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/lib/OverhaulUtil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/patch/MissileOverhaulPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/patch/MissileOverhaulPatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/patch/MissilePatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATFTools/src/patch/MissilePatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/patchSubclass/ARHSeekerPatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/patchSubclass/IRSeekerPatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/patchSubclass_Backup/ARHSeekerPatch_Backup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolarMissileOverhaul/src/patchSubclass_Backup/IRSeekerPatch_Backup.cs" beforeDir="false" />
-    </list>
+    <list default="true" id="aafdaf75-af51-4396-89c8-f7fcf011c671" name="Changes" comment="" />
     <list id="340b16d7-8325-42e2-ae00-810c3665e6a9" name="Changes by Jenson Lindsey" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +42,16 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/28/82c32f62/Radar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/2a/958e3bd6/Turbojet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/2f/04942eea/GeneratedNetworkCode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/30/d1284fec/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/34/d06f3bed/IPowerOutput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/36/fc07b399/NewMissionConfig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/3b/40a50eb0/IRSeeker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/3e/9a4ce2e4/Mission.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/40/bff59b48/BasePlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/40/e81b33f4/FiringConeChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/42/04d07026/ChatManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/46/8968186a/IRadarReturn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/47/22277b28/DedicatedServerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/4a/048b88c7/TrackingInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/4f/58c146a7/JammingPod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/50/918fd975/ControlInputs.cs" root0="SKIP_HIGHLIGHTING" />
@@ -104,6 +73,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/94/73d9da94/MountedRadar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/9b/60abdaa2/PersistentID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/a0/7db63e16/TargetDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/a2/17fbf545/PlayerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/a5/6abb6c10/CollisionTriggerZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/a7/4868a6cb/IEngine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fda19c08ef5445d835f84e9933959ab2e2a00/ab/c1588215/EncyclopediaBrowser.cs" root0="FORCE_HIGHLIGHTING" />
@@ -133,6 +103,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d18621a531d440139cf4d862e82948aa5e7e00/d0/ca3202b1/HeatSeeker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d18621a531d440139cf4d862e82948aa5e7e00/f8/09752aa6/RadarJammer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d18621a531d440139cf4d862e82948aa5e7e00/f9/6b9630dd/Battery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ec2e4f47e80e4a298862b856198ed94b1f8000/3c/08e8039f/UserData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ec2e4f47e80e4a298862b856198ed94b1f8000/57/f3d183f1/UserDataStore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ec2e4f47e80e4a298862b856198ed94b1f8000/6d/249adfa4/InputActionCategory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ec2e4f47e80e4a298862b856198ed94b20f200/db/b8954981/UserData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATFTools/src/Core/PlayerNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATFTools/src/Patch/PlayerPatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATFTools/src/core/Input.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATFTools/src/lib/rf/IRF_DRFM.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATFTools/src/lib/rf/IRF_Receiver.cs" root0="FORCE_HIGHLIGHTING" />
@@ -164,61 +140,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000069642" />
-      <entry key="S10" value="1.0000026389583283" />
-      <entry key="S30" value="1.0138244164043384" />
-      <entry key="S60" value="1.1269420327948096" />
-      <entry key="M2" value="1.791538665931589" />
-      <entry key="M5" value="8.313342506335633" />
-      <entry key="M10" value="33.21544143865638" />
-      <entry key="M15" value="65.81823460294726" />
-      <entry key="M30" value="148.6799774610691" />
-      <entry key="H1" value="255.96375246533327" />
-      <entry key="H2" value="428.4816181595699" />
-      <entry key="H4" value="679.4901201714098" />
-      <entry key="D1" value="2129.171586991992" />
-      <entry key="W1" value="6460.354184123884" />
+      <entry key="MS100" value="1.000000000631718" />
+      <entry key="MS500" value="1.0144578820769596" />
+      <entry key="S2" value="1.3511984335845495" />
+      <entry key="S5" value="1.7691980318044735" />
+      <entry key="S10" value="2.1475522187491896" />
+      <entry key="S30" value="2.6293979731269017" />
+      <entry key="S60" value="2.9680398312794485" />
+      <entry key="M2" value="5.984907713921893" />
+      <entry key="M5" value="23.35235024456742" />
+      <entry key="M10" value="43.6628687547045" />
+      <entry key="M15" value="56.72395359978905" />
+      <entry key="M30" value="94.37001235417259" />
+      <entry key="H1" value="183.47819422574767" />
+      <entry key="H2" value="359.7903940129036" />
+      <entry key="H4" value="636.0664774738739" />
+      <entry key="D1" value="2157.244431035616" />
+      <entry key="W1" value="6539.635077195839" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.5274666124205694E-304" />
-      <entry key="S5" value="2.9756968857072877E-122" />
-      <entry key="S10" value="1.7250208366094832E-61" />
-      <entry key="S30" value="5.5698077396685265E-21" />
-      <entry key="S60" value="7.641769146081901E-11" />
-      <entry key="M2" value="1.020377014900832E-5" />
-      <entry key="M5" value="0.018087953255250963" />
-      <entry key="M10" value="0.30057926021807474" />
-      <entry key="M15" value="0.8243555581032049" />
-      <entry key="M30" value="2.3590179898313353" />
-      <entry key="H1" value="4.194909354378626" />
-      <entry key="H2" value="7.165180299850309" />
-      <entry key="H4" value="13.827937886549046" />
-      <entry key="D1" value="119.09926829148411" />
-      <entry key="W1" value="596.7874004045063" />
+      <entry key="MS100" value="3.220140854080261E-40" />
+      <entry key="MS500" value="1.2671022332011748E-8" />
+      <entry key="S2" value="0.013052149400724735" />
+      <entry key="S5" value="0.25253546689547524" />
+      <entry key="S10" value="0.7032823788300514" />
+      <entry key="S30" value="1.4084378560447215" />
+      <entry key="S60" value="1.6999079613057309" />
+      <entry key="M2" value="2.1882349390689377" />
+      <entry key="M5" value="4.275277627277154" />
+      <entry key="M10" value="6.744749053943172" />
+      <entry key="M15" value="8.250903362525666" />
+      <entry key="M30" value="10.986682355123472" />
+      <entry key="H1" value="14.235070590903518" />
+      <entry key="H2" value="18.444753268122493" />
+      <entry key="H4" value="25.709461256518857" />
+      <entry key="D1" value="129.9206094792111" />
+      <entry key="W1" value="609.1124222915347" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.3164516068300117E-5" />
-      <entry key="MS500" value="0.12709683416149453" />
-      <entry key="S2" value="0.5970815935372947" />
-      <entry key="S5" value="0.8136047460026161" />
-      <entry key="S10" value="0.9020026932628232" />
-      <entry key="S30" value="0.9793707529406097" />
-      <entry key="S60" value="1.107064124652233" />
-      <entry key="M2" value="1.7787164025436863" />
-      <entry key="M5" value="8.322128907142705" />
-      <entry key="M10" value="33.50162936021698" />
-      <entry key="M15" value="66.62429407525106" />
-      <entry key="M30" value="151.01911304117246" />
-      <entry key="H1" value="260.1417318069734" />
-      <entry key="H2" value="435.63229338428755" />
-      <entry key="H4" value="693.3056164009146" />
-      <entry key="D1" value="2248.2607894785524" />
-      <entry key="W1" value="7057.135732615019" />
+      <entry key="MS100" value="0.9265880624757132" />
+      <entry key="MS500" value="0.9991055262453377" />
+      <entry key="S2" value="1.3510552493032366" />
+      <entry key="S5" value="1.9426787574211914" />
+      <entry key="S10" value="2.7368121364210745" />
+      <entry key="S30" value="3.9596639444197046" />
+      <entry key="S60" value="4.619716922367389" />
+      <entry key="M2" value="8.13478159710383" />
+      <entry key="M5" value="27.577947547219928" />
+      <entry key="M10" value="50.35994656983401" />
+      <entry key="M15" value="64.93337347714697" />
+      <entry key="M30" value="105.32590907251654" />
+      <entry key="H1" value="197.68993898854634" />
+      <entry key="H2" value="378.21675236738434" />
+      <entry key="H4" value="661.7611318208527" />
+      <entry key="D1" value="2287.1544817077447" />
+      <entry key="W1" value="7148.741551161035" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -260,7 +236,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="HelloMod" type="DotNetProject" factoryName=".NET Project">
+    <configuration name="Build" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -275,7 +251,7 @@
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_KIND" value="Unloaded" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
